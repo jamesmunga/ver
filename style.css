@@ -1,0 +1,218 @@
+*{
+   margin: 8px;
+   padding:1px;
+}
+body{
+    font-size: 1em;
+    
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   box-sizing: border-box;
+   background-color:rgb(225, 205, 205);
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 10vh;
+    position:relative;
+    background: transparent;
+    
+}
+.navbar {
+    background:none;
+    width: 100vw;
+   float: right;
+    line-height: 2px;
+    display: flex;
+    flex-direction: row;   
+    justify-content: space-between;
+    background: transparent;
+    position: fixed;
+    /* overflow-x: hidden; */
+  
+} 
+a {
+    line-height: 1rem;
+    display: flex;
+    flex-direction: row; 
+    background: none;
+    word-spacing:none ;
+    justify-content: center;
+    border-spacing: -5px;
+    position:relative;
+    clear: left;
+}
+ @keyframes myAnimation {
+         from {
+            background-color:none;
+            left: 0px;
+         }
+         to {
+            background-color: none;
+            left: 10px;
+         }
+      }
+a .log{
+    width: 100px;
+    height: 2em;
+    animation-name: myAnimation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    position: relative;
+    flex-wrap: nowrap;
+    animation-delay: 1s;
+    
+    /* width: 100px;
+    height: 100px; */
+}
+
+a  .log {
+    display: flex;
+    flex-direction: row;
+    background: none;
+}
+a .log  img{
+    width: 50px;
+    height: 2em;
+    background-color: none;clear: both;
+} 
+ 
+
+@keyframes myText{
+    from {
+       background-color:none;
+         top:500px;
+       left: 400px;
+    }
+    to {
+       background-color: none;
+      top:0px;
+       left: 0px;
+    }
+ }
+a .logo-text{
+width: 100px;
+height: 2em;
+animation-name: myText;
+animation-duration: 2s;
+animation-iteration-count: ease-out;
+animation-direction: alternate;
+position: relative;
+flex-wrap: nowrap;
+animation-delay: 1s;
+margin-left: -5px;
+/* width: 100px;
+height: 100px; */
+}
+
+a .logo-text {
+display: flex;
+flex-direction: row;
+background: none;
+}
+a .logo-text  img{
+width: 10opx;
+height: 2em;
+background-color: none;
+clear: both;
+} 
+@keyframes myA {
+    from {
+       background-color:none;
+       top:0px;
+       left: 500px;
+    }
+    to {
+       background-color: none;
+       left: 50px;
+    }
+ }
+a .logo-pay{
+    width: 100px;
+    height: 2em;
+    background: none;
+    animation-name: myA;
+    animation-duration: 2s;
+    animation-iteration-count: ease-out;
+    animation-direction: alternate;
+    position: relative;
+    flex-wrap: nowrap;
+    animation-delay: 1s;
+    /* width: 100px;
+    height: 100px; */
+}
+
+a .logo-pay {
+display: flex;
+flex-direction: row;
+background: none;
+}
+a .logo-pay  img{
+width: 10opx;
+height: 2em;
+background-color: none;
+} 
+nav{
+    background: #41dcd9;
+    font-weight: 20;
+ 
+ 
+}
+nav a{
+    text-decoration: none;
+}
+nav a h4{
+    color: rgb(30, 32, 189);
+    transition-timing-function: ease;
+    transition-duration: 2s;
+    border-radius: 5px;
+    text-decoration: none;
+  
+}
+
+nav a h4:hover{
+    color:black;
+    border-radius: 5px;
+  text-decoration: none;
+
+    
+}
+.get{
+    color:black;
+    background-color: none;
+    border-radius: 5px;
+    border-shadow
+}
+
+#main{
+   margin-left: 50px;
+   width: fit-content;
+    padding:10px;
+    padding-left: 20px; 
+  
+
+    
+}
+
+#main .digital{
+    
+    margin-right: 10px;
+    font-weight: bolder;
+}
+#main .digital h1{
+    font-size: 60px;
+    margin-right: 10px;
+    font-weight: bolder;
+}
+#main .digital span{
+    color:rgb(47, 43, 43);
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif ;
+}      
+#main .about{
+    border-radius: 10px;
+    background-color:black;
+    width: 200px;
+    font-display: white;
+    color: #fff;
+}
